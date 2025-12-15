@@ -141,6 +141,7 @@ deleteProduct(product: any): Observable<Object> {
   return this.http.delete("http://localhost:8080/product/" + product.id);
 }
 ```
+<img src="images/img_8.png"/>
 
 Cela permet :
 
